@@ -1,0 +1,62 @@
+body {font-family: arial;font-size: 15px;line-height: 18px;margin: 0 auto;width: 850px;background:#EEEEEE}
+.headeroption {background: #204562 ;height: 74px;overflow: hidden;}
+.headeroption h2{text-align: center;color: #fff;font-size: 30px}
+.content{background: #fff;border: 6px solid #204562;font-size: 16px;line-height: 22px;margin-bottom: 1px;margin-top: 1px;min-height: 380px;overflow: hidden;padding: 10px;}
+
+.button{overflow: hidden;padding: 4px;margin-top: 48px;}
+.button a { background: #4CAF50; border-radius: 10px;color: #fff;font-size: 20px;padding: 15px 19px;text-decoration: none;}
+.button a:hover{background: #339637;}
+
+.userlist{overflow: hidden}
+.left{float: left;}
+.right{float:right;}
+
+.loginform {
+  border: 1px solid #ddd;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 5px 5px 5px #999;
+  margin: -1px auto;
+  padding: 20px;
+  width: 320px;
+}
+h3{background: #298c2d; border-top-left-radius: 10px;
+	border-top-right-radius: 10px; color: #fff;font-size: 26px;padding: 15px 20px;
+width: 320px;
+box-shadow: 5px 1px 5px #4CAF50;
+margin:auto;text-align: center;}
+
+
+input[type="text"],input[type="password"] {border:1px solid #ddd;margin-bottom:5px;padding:5px;width:228px;font-size:16px}
+input[type="submit"],input[type="reset"]{cursor: pointer;font-size: 18px}
+
+
+.tblone{width:100%;border:1px solid #fff;}
+.tblone td{padding:5px 10px;text-align:center;}
+.tblone th {background: #363c46  none repeat scroll 0 0; color: #fff;padding: 9px; text-align: center;}
+table.tblone tr:nth-child(2n+1){background:#e8e8e8 ;height:30px;}
+table.tblone tr:nth-child(2n){background:#cbcbcb;height:30px;}
+.tblone a {
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #3ea142 ;
+  padding: 3px 3px;
+  background: #4CAF50 ;
+}
+.tblone td a:hover {
+  color: #FFF;
+  font-size: 20px;
+  background: #339637;
+}
+
+
+.footeroption{height:90px;background:#204562;overflow:hidden;padding-top:10px;}
+.footeroption h2{text-align: center;color:#fff}
+
+
+.notfound{text-align: center;}
+.notfound h1{font-size: 70px;}
+.notfound p{}
+.notfound p a{font-size: 20px;cursor: pointer;}
+.notfound p a:hover{font-size:50px;cursor: pointer;border: 1px solid #ddd;background: #efefef;text-decoration: none;padding: 5px;}
+.notfound h1 span{color:red;font-size: 140px;line-height: 180px;display: block;}
